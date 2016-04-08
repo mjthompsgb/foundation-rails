@@ -170,7 +170,8 @@ $-zf-flex-classes-imported: false;
   // Make select elements are 100% width by default
   select {
     width: 100%;
-    border-radius: $global-radius;
+    // border-radius: $global-radius;
+    box-sizing: inherit !important;
   }
 
   // Styles Google Maps and MapQuest embeds properly
